@@ -1,0 +1,65 @@
+<div class="container">
+  
+  <div id="carouselExample" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000">
+    <div class="carousel-inner">
+      <div class="carousel-item active"  ng-repeat="item in listbanner | limitTo: numItems">
+        <img src="{{item.img_urn}}" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  
+  <div>
+    <hr>
+    <span style="font-size: xx-large; ">TRẢI NGHIỆM KHÁCH HÀNG TẠI  V.I.C FASHION</span>
+    <div class="row justify-content-between" style="margin-top: 30px; margin-bottom: 50px;">
+      <div class="col-md-4 "  ng-repeat="item in listkhresponse"  style="margin-bottom: 15px; ">
+        <div class="item__feedback" style="display: flex !important; justify-content: center; background-color: rgb(179, 182, 173); border-radius: 10px;padding-bottom: 10px;">
+
+          <div class="img__feedback ">
+            <div class="name__feedback " style="display: flex; justify-content: centers; text-align: center;">
+              <h3 style="font-weight: 500;text-transform: capitalize;">{{item.ten}}</h3>
+            </div>
+            <div style="display: flex; justify-content: center; border-radius: 5%;">
+              <img src="{{item.ava_url}}" class="rounded-circle " style="width: 300px; height: 300px;">
+            </div>
+
+            <div><span ng-bind-html="showStarRating(item.danggia)" style="font-size: xx-large; color: yellow;"></span></div>
+              <p class="text__description " style=" font-weight: 600;" >{{item.binhluan}}</p>
+              <div class="reemore_feedback " style="display: flex; justify-content: center;">
+                <button type="button" class="btn btn-danger" ng-click="opendetail(1)" >XEM SẢN PHẨM</button>
+              </div>
+          </div>
+        </div>
+      </div>
+      
+      
+    </div>
+    <hr>
+    <span style="font-size: xx-large; ">Sản phẩm bán chạy</span>
+    <div class="row">
+      
+      <div class="col-md-3" ng-repeat="item in listsp  | limitTo:4">
+        <img src="{{item.anh}}" alt="..." class="img-thumbnail" >
+        <div class="caption"  ng-click="opendetail(item.id)">
+          <p style="color: rgb(0, 0, 0);font-size: larger;">{{item.ten}}</p>
+          <div class="price-tag">
+            <span class="price deal" style="color: rgb(240, 0, 0);">{{item.gia}}<span>₫</span></span>
+          </div>
+          <div class="vertical-center" style="display: flex;justify-content: center;">
+            <button type="button" class="btn btn-danger" style="margin-top: 20px;">
+              <i class="fa fa-shopping-basket" aria-hidden="true" style="color: rgb(255, 255, 255);"> Mua</i></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+

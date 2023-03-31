@@ -1,0 +1,215 @@
+{
+  "quanaos": [
+    {
+      "ten": "Áo phông nam hè, thoáng mát co dãn",
+      "mota": "mota 1",
+      "gia": 244000,
+      "kichco": [],
+      "mau": "mau 1",
+      "anh": "./img/1.png",
+      "id": "1"
+    },
+    {
+      "ten": "Áo phông nam hè, thoáng mát co dãn",
+      "mota": "mota 2",
+      "gia": 549000,
+      "kichco": [],
+      "mau": "mau 2",
+      "anh": "./img/3.png",
+      "id": "2"
+    },
+    {
+      "ten": "Áo phông nam hè, thoáng mát co dãn",
+      "mota": "mota 3",
+      "gia": 49000,
+      "kichco": [],
+      "mau": "mau 3",
+      "anh": "./img/2.png",
+      "id": "3"
+    },
+    {
+      "ten": "Áo phông nam hè, thoáng mát co dãn",
+      "mota": "mota 4",
+      "gia": 249000,
+      "kichco": [],
+      "mau": "mau 4",
+      "anh": "./img/4.png",
+      "id": "4"
+    },
+    {
+      "ten": "Áo phông nam hè, thoáng mát co dãn",
+      "mota": "mota 5",
+      "gia": 99000,
+      "kichco": [],
+      "mau": "mau 5",
+      "anh": "./img/5.png",
+      "id": "5"
+    },
+    {
+      "ten": "Áo phông nam hè, thoáng mát co dãn",
+      "mota": "mota 6",
+      "gia": 149000,
+      "kichco": [],
+      "mau": "mau 6",
+      "anh": "./img/6.png",
+      "id": "6"
+    },
+    {
+      "ten": "Quần nỉ thể thao nam co dãn , thoải mái",
+      "mota": "mota 7",
+      "gia": 119000,
+      "kichco": [],
+      "mau": "mau 7",
+      "anh": "./img/7.png",
+      "id": "7"
+    },
+    {
+      "ten": "Quần nỉ thể thao nam co dãn , thoải mái",
+      "mota": "mota 8",
+      "gia": 139000,
+      "kichco": [],
+      "mau": "mau 8",
+      "anh": "./img/8.png",
+      "id": "8"
+    },
+    {
+      "ten": "Quần nỉ thể thao nam co dãn , thoải mái",
+      "mota": "mota 9",
+      "gia": 189000,
+      "kichco": [],
+      "mau": "mau 9",
+      "anh": "./img/9.png",
+      "id": "9"
+    },
+    {
+      "ten": "Quần nỉ thể thao nam co dãn , thoải mái",
+      "mota": "mota 10",
+      "gia": 149000,
+      "kichco": [],
+      "mau": "mau 10",
+      "anh": "./img/10.png",
+      "id": "10"
+    },
+    {
+      "ten": "Quần nỉ thể thao nam co dãn , thoải mái",
+      "mota": "mota 11",
+      "gia": 149000,
+      "kichco": [],
+      "mau": "mau 11",
+      "anh": "./img/11.png",
+      "id": "11"
+    },
+    {
+      "ten": "Quần nỉ thể thao nam co dãn , thoải mái",
+      "mota": "mota 12",
+      "gia": 149000,
+      "kichco": [],
+      "mau": "mau 12",
+      "anh": "./img/12.png",
+      "id": "12"
+    },
+    {
+      "ten": "Quần nỉ thể thao nam co dãn , thoải mái",
+      "mota": "mota 13",
+      "gia": 149000,
+      "kichco": [],
+      "mau": "mau 13",
+      "anh": "./img/13.png",
+      "id": "13"
+    },
+    {
+      "ten": "Quần nỉ thể thao nam co dãn , thoải mái",
+      "mota": "mota 14",
+      "gia": 149000,
+      "kichco": [],
+      "mau": "mau 14",
+      "anh": "./img/14.png",
+      "id": "14"
+    },
+    {
+      "ten": "Áo nỉ thể thao nam co dãn, thoải mái",
+      "mota": "mota 15",
+      "gia": 149000,
+      "kichco": [],
+      "mau": "mau 15",
+      "anh": "./img/15.png",
+      "id": "15"
+    },
+    {
+      "ten": "Áo nỉ thể thao nam co dãn, thoải mái",
+      "mota": "mota 16",
+      "gia": 149000,
+      "kichco": [],
+      "mau": "mau 16",
+      "anh": "./img/16.png",
+      "id": "16"
+    }
+  ],
+  "banner": [
+    {
+      "id": "1",
+      "img_urn": "./img/baner1.png"
+    },
+    {
+      "id": "2",
+      "img_urn": "./img/baner2.png"
+    },
+    {
+      "id": "3",
+      "img_urn": "./img/baner3.png"
+    }
+  ],
+  "client_respone": [
+    {
+      "id": 1,
+      "ten": "Phạm Gia Khánh",
+      "danggia": 5,
+      "binhluan": "Hàng đẹp, chất lượng cao, phục vụ chu đáo",
+      "ava_url": "./img/ava2.png"
+    },
+    {
+      "id": 2,
+      "ten": "Thầy tên nguyên",
+      "danggia": 5,
+      "binhluan": "Hàng đẹp, chất lượng cao, phục vụ chu đáo",
+      "ava_url": "./img/ava1.jpg"
+    },
+    {
+      "id": 3,
+      "ten": "Đỗ Bảo Linh",
+      "danggia": 4,
+      "binhluan": "Hàng đẹp, chất lượng cao, phục vụ chu đáo",
+      "ava_url": "./img/ava3.png"
+    }
+  ],
+  "giohang": [
+    {
+      "id": 11,
+      "soluong": 4,
+      "tensp": "Áo phông nam hè, thoáng mát co dãn",
+      "anhsp": "./img/5.png",
+      "gia": 99000
+    },
+    {
+      "soluong": 2,
+      "tensp": "Áo phông nam hè, thoáng mát co dãn",
+      "anhsp": "./img/1.png",
+      "gia": 244000,
+      "id": 12
+    },
+    {
+      "soluong": 2,
+      "tensp": "Quần nỉ thể thao nam co dãn , thoải mái",
+      "anhsp": "./img/14.png",
+      "gia": 149000,
+      "id": 13
+    },
+    {
+      "soluong": 1,
+      "tensp": "Áo phông nam hè, thoáng mát co dãn",
+      "anhsp": "./img/2.png",
+      "gia": 49000,
+      "id": 14
+    }
+  ]
+}

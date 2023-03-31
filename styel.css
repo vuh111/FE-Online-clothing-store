@@ -1,0 +1,58 @@
+.item__feedback p {
+    font-family: "Open Sans", sans-serif;
+  }
+a.nav-link{
+    font-size: xx-large;
+    font-family: "Playfair Display", sans-serif;
+}
+div.pro-qty{
+  display: flex;
+  text-align: center;
+  
+}
+
+input.vol_sp{
+  border-radius: 12px;
+  border-width: 3px;
+}
+ul.sidebar__item{
+  list-style: none;
+  
+
+}
+ul.sidebar__item li{
+  margin-bottom: 10px;
+}
+ul.sidebar__item li a{
+  text-decoration: none;
+  color:  grey;
+}
+.checkout-form {
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: #fff;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-label {
+  font-weight: bold;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.btn {
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}

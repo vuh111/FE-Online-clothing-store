@@ -1,0 +1,65 @@
+
+
+<div class="container">
+    <div class="main_content" style="margin-top: 30px;">
+        <div class="row">
+           <div class="col-md-2">
+               <div class="sidebar">
+                   <div class="sidebar__item">
+                       <h4 style="padding-left: 32px;">Danh Mục</h4>
+                       <ul class="sidebar__item">
+                           <li><a href="#">ÁO Nỉ</a></li>
+                           <li><a href="#">ÁO THỂ THAO</a></li>
+                           <li><a href="#">ÁO GIỮ NHIỆT</a></li>
+                           <li><a href="#">BỘ NỈ</a></li>
+                           <li><a href="#">BỘ THỂ THAO</a></li>
+                           <li><a href="#">ÁO KHOÁC </a></li>
+                           <li><a href="#">ÁO THUN</a></li>
+                           <li><a href="#">QUẦN BÒ</a></li>
+                           <li><a href="#">QUẦN SHORT</a></li>
+                           <li><a href="#">QUẦN NỈ</a></li>
+                       </ul>
+                   </div>
+                   
+                   
+                   
+
+               </div>
+           </div>
+           <div class="col-md-10">
+               <div class="section-title product__discount__title">
+                <div class="btn-group" role="group" aria-label="Basic example" style="margin-bottom: 15px;">
+                    <span style="margin-top: 7px;margin-right: 25px;">Sắp xếp theo </span>
+                    <button type="button" class="btn ">Liên quan</button>
+                    <button type="button" class="btn ">Mới Nhất</button>
+                    <button type="button" class="btn " ng-click="sortOrder('gia')">Giá</button>
+                  </div>
+                     <div class="main_img">
+                        <div class="row">
+                            
+                            <div class="col-md-3" ng-repeat="item in listsp| orderBy:sortBy:reverse">
+                              <img src="{{item.anh}}" alt="..." class="img-thumbnail">
+                              <div class="caption" style="margin: 10px 10px;" >
+                                <p style="color: rgb(0, 0, 0); font-size:medium; ">{{item.ten}}</p>
+                                <div class="price-tag" >
+                                  <span class="price"><p style="color: red;">{{item.gia|number:0}}<span>₫</span></p></span>
+                                </div>
+                                <div> Đánh giá: <span ng-bind-html="showStarRating(5)" style="font-size: x-small; color: yellow;"> </span></div>
+                                <div class="btn" style="display: flex; justify-content: center;">
+                                    <button type="button" class="btn btn-danger" style="margin-top: 20px; "ng-click="opendetail(item.id)" >
+                                        <i class="fa fa-shopping-basket" aria-hidden="true" style="color: rgb(255, 255, 255);"> Mua</i>
+                                    </button>
+                                </div>
+                                <hr>
+                              </div>
+                            </div>
+                          </div>
+                              
+                     </div>
+                     
+               </div>
+           </div>
+        </div>
+       </div>
+</div>
+</div>
